@@ -17,3 +17,9 @@ We're so glad you're thinking about contributing to Data.gov!
 
 Before contributing to this extension we encourage you to read our [CONTRIBUTING](https://github.com/GSA/ckanext-geodatagov/blob/master/CONTRIBUTING.md) guide, our [LICENSE](https://github.com/GSA/ckanext-geodatagov/blob/master/LICENSE.md), and our README (you are here), all of which should be in this repository. If you have any questions, you can email the Data.gov team at [datagov@gsa.gov](mailto:datagov@gsa.gov).
 
+## Testing
+
+Test for this extensions lives at the [ckanext/geodatagov/tests](https://github.com/GSA/ckanext-geodatagov/tree/master/ckanext/geodatagov/tests) folder.
+
+Te best way to run this tests locally is to build an environment with [OKF Docker CKAN](https://github.com/okfn/docker-ckan).  
+All tests runs (with a CKAN environment) at [CircleCI](https://circleci.com/gh/gsa/ckanext-geodatagov).  
